@@ -38,7 +38,7 @@ body
     float:right;
 }
 
-#link1
+.link
 {
     width: 150px;
     height:30px;
@@ -49,16 +49,6 @@ body
     float:left;
 }
 
-#link2
-{
-    width: 150px;
-    height:30px;
-    padding:10px;
-    text-align:center;
-    line-height:30px;
-    outline:auto;
-    float:left;
-}
 
 #content
 {
@@ -106,19 +96,15 @@ a:link
     float:left;
 }
 
-#link1:hover
+.link:hover
 {
     background-color:#202020;
 }
 
-#link2:hover
-{
-    background-color:#202020;
-}
 
 #gif
 {
     width:200px;
     height:400px;
-    float:right;
+    float:left;
 }
