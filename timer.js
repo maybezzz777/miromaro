@@ -2,7 +2,6 @@ function odliczanie()
 	{
 		var dzisiaj = new Date();
 		
-		
 		var godzina = dzisiaj.getHours();
 		if (godzina<10) godzina = "0"+godzina;
 		
@@ -14,5 +13,5 @@ function odliczanie()
 		
 		document.getElementById("time").innerHTML = godzina+":"+minuta+":"+sekunda;
 		 
-		 setTimeout("odliczanie()",1000);
+		setTimeout("odliczanie()",1000);
 	}
