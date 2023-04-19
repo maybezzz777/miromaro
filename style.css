@@ -8,8 +8,9 @@ body
 #container
 {
     width:1000px;
-    margin-left:auto;
+    margin-left:200px;
     margin-right:auto;
+    float:left;
 }
 
 #logo
