@@ -6,10 +6,13 @@ body
 
 #box
 {
-    width:500px;
-    margin:12% auto;
-    padding:50px 0;
-    outline:auto;
+    width: 500px;
+        margin: 0 auto;
+        padding: 50px 0;
+        outline: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-200%);
 }
 
 h1
@@ -49,4 +52,24 @@ h1
     background:transparent;
     color:white;
     font-size:16px;
+}
+
+#containter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+    background-image: url(linux.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+
+}
+
+* {
+    box-sizing: border-box;
 }
