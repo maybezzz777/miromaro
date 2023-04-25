@@ -1,8 +1,10 @@
 function checkPassword() {
     var password = document.getElementById("myinput").value;
-    if (password == "PingwiN203204") {
+    if (password == "zaq1@WSX") 
+    {
         window.location.href = "hot.html";
-    } else {
+    } else 
+    {
         alert("Nieprawidłowe hasło!");
     }
 }

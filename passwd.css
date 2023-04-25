@@ -60,14 +60,7 @@ h1
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 900px;
-    background-image: url(linux.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position-x:left;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-
+    height: 900px; 
 }
 
 * {
