@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PASSWORD</title>
+    <link rel="stylesheet" href="passwd.css" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+    <script src="haslo.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', checkPassword);
+    </script>
+    
+</head>
+
+<body>
+
+    <div id="containter"></div>
+    <div id="box">
+        <h1>PASSWORD</h1>
+
+        <div class="input">
+            <input type="password" placesholder="Password" id="myinput">
+        </div>
+
+        <button type="button" class="login" onclick="checkPassword()">LOGIN</button>
+        
+    </div>
+
+
+
+</body>
+
+</html>
