@@ -1,88 +1,45 @@
 <!DOCTYPE html>
-<html lang="pl">
-
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXP</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-     <meta name="viewport" content="width=device-width", initialscale="1.0">
-
-    <script src="timer.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', odliczanie);
-    </script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    
-    <div id="container">
-        
-        <a href="index.html">
-            <div id="logo">
-                MIROMARO
-            </div>
-            </a> 
-            <div id="png">
-                <img width="100" height="100" src="linux.png"/>
-            </div>
 
-        <div id="time">
-            21:37
+    <nav>  
+        <ul>
+            <li><a href="index.html" class="link">HOME</a></li>
+            <li><a href="exp.html" class="link use">EXP</a></li>
+            <li><a href="adm.html" class="link">ADM</a></li>
+        </ul>
+        <div class="title"><h1>MIROMARO</h1></div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>EXP</h1>
+            <ul>
+                <li><a href="pdf/exp/mikrokomputery.pdf" target="_blank">Mikrokomputery.pdf</a></li>
+                <li><a href="pdf/exp/chlodzenie.pdf" target="_blank">Chłodzenie.pdf</a></li>
+                <li><a href="pdf/exp/zarz_kom_z_kon.pdf" target="_blank">Zarządzanie komputerem z poziomu konsoli.pdf</a></li>
+                <li><a href="pdf/exp/cmd_komendy.pdf" target="_blank">Komendy cmd.pdf</a></li>
+                <li><a href="pdf/exp/drukarki.pdf" target="_blank">Drukarki.pdf</a></li>
+                <li><a href="https://mirekn.cba.pl/eksploatacja/skaner.mp4" target="_blank">Skaner.mp4</a></li>
+                <li><a href="pdf/exp/win_install_drukarki.pdf" target="_blank">Windows instalacja drukarki.pdf</a></li>
+                <li><a href="pdf/exp/ubuntu_install_drukarki.pdf" target="_blank">Ubuntu instalacja drukarki.pdf</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/m0.7z" target="_blank">Mikrotik-archiwum 1</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/m1.7z" target="_blank">Mikrotik-archiwum 2</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/m2.7z" target="_blank">Mikrotik-archiwum 3</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/m3dhcp.mp4" target="_blank">MikrotikDHCP.mp4</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/m3dhcp_zarz.mp4" target="_blank">MikrotikDHCP2.mp4</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/VLAN_2xMicrotik.7z.001" target="_blank">MikrotikVLAN - archiwum ciągłe 1</a></li>
+                <li><a href="https://mirekn.cba.pl/mic/VLAN_2xMicrotik.7z.002" target="_blank">MikrotikVLAN - archiwum ciągłe 2</a></li>
+                <li><a href="pdf/exp/urz_mobilne.pdf" target="_blank">Urządzenie mobile.pdf</a></li>
+            </ul>
+
         </div>
-        <div style="clear:both"></div>
-
-        <a href="adm.html">
-        <div class="link">Administracja <br/> </div>
-        </a>
-
-        <a href="exp.html">
-        <div class="link">
-            Eksploatacja <br/>  
-        </div>
-        </a>
-
-        
-
-        <div style="clear:both;"></div>
-
-
-        <div id="content">
-            
-            <a href="pdf/exp/mikrokomputery.pdf" target="_blank">Mikrokomputery.pdf<br/><br/></a>
-            <a href="pdf/exp/chlodzenie.pdf" target="_blank">Chłodzenie.pdf<br/><br/></a>
-            <a href="pdf/exp/zarz_kom_z_kon.pdf" target="_blank">Zarządzanie komputerem z poziomu konsoli.pdf<br/><br/></a>
-            <a href="pdf/exp/cmd_komendy.pdf" target="_blank">Komendy cmd.pdf<br/><br/></a>
-            <a href="pdf/exp/drukarki.pdf" target="_blank">Drukarki.pdf<br/><br/></a>
-            <a href="https://mirekn.cba.pl/eksploatacja/skaner.mp4" target="_blank">Skaner.mp4<br/><br/></a>
-            <a href="pdf/exp/win_install_drukarki.pdf" target="_blank">Windows instalacja drukarki.pdf<br/><br/></a>
-            <a href="pdf/exp/ubuntu_install_drukarki.pdf" target="_blank">Ubuntu instalacja drukarki.pdf<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/m0.7z" target="_blank">Mikrotik - archiwum 1<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/m1.7z" target="_blank">Mikrotik - archiwum 2<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/m2.7z" target="_blank">Mikrotik - archiwum 3<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/m3dhcp.mp4" target="_blank">MikrotikDHCP.mp4<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/m3dhcp_zarz.mp4" target="_blank">MikrotikDHCP2.mp4<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/VLAN_2xMicrotik.7z.001" target="_blank">MikrotikVLAN - archiwum ciągłe 1<br/><br/></a>
-            <a href="https://mirekn.cba.pl/mic/VLAN_2xMicrotik.7z.002" target="_blank">MikrotikVLAN - archiwum ciągłe 2<br/><br/></a>
-            <a href="pdf/exp/urz_mobilne.pdf" target="_blank">Urządzenie mobile.pdf<br/><br/></a>
-        
-        </div>
-
-        <div id="gif">
-            <img src="linux.gif"/>
-        </div>
-        <div style="clear:both;"></div>
-
-    </div>
-
+    </main>
 </body>
-
 </html>
