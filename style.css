@@ -1,85 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-nav li{
-    list-style: none;
-    font-size: 30px;
-    padding:10px;
-    display: inline-block;
-    transition: all 500ms;
+body {
+  font-family: "Roboto Mono", monospace;
 }
 
-.use{
-    color:yellow;
+nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 500ms;
 }
 
-nav li:hover{
-    transform: scale(1.2);
+.use {
+  color: yellow;
 }
 
-nav{
-    background-color: rgb(43, 43, 43);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;   
+nav li:hover {
+  transform: scale(1.2);
 }
 
-nav a{
-    text-align: center;
-    color: snow;
-    text-decoration: none;
-}
-.title{
-    color:snow;
-    font-size:35px;
-    position: absolute;
-    right:1%;
-    padding:10px;
+nav {
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nova Square", sans-serif;
 }
 
-.container{
-    background-color:snow;
-    margin: 15px;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+nav a {
+  text-align: center;
+  color: snow;
+  text-decoration: none;
+}
+.title {
+  color: snow;
+  font-size: 35px;
+  position: absolute;
+  right: 1%;
+  padding: 10px;
 }
 
-.container li{
-    padding:10px;
+.container {
+  background-color: snow;
+  padding: 10px;
+  margin: 15px;
+  height: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
-.container ul{
-    list-style: none;
+.container li {
+  padding: 10px;
 }
 
-.container a{
-    color:black;
-    text-decoration: none;
-    font-size:20px;
+.container ul {
+  list-style: none;
 }
 
-
-.container p{
-    padding:10px;
-    font-size: 20px;
+.container a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-.container h1, .container h3{
-    text-align: center;
+.container p {
+  padding: 10px;
+  font-size: 20px;
 }
 
+.container h1,
+.container h3 {
+  text-align: center;
+}
 
-@media screen and (max-width:900px)
-{
-    .title{
-        visibility: hidden;
-    }
+@media screen and (max-width: 900px) {
+  .title {
+    visibility: hidden;
+  }
 }
